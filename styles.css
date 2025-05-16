@@ -39,10 +39,26 @@
 
 .name {
   font-size: 3vh;
+  text-align: center;
+  width: 175px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.name:hover {
+  font-size: 4vh;
 }
 
 .tags {
   font-size: 2vh;
+  text-align: center;
+  width: 100px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.tags:hover {
+  font-size: 3vh;
 }
 
 .projects {
@@ -82,9 +98,9 @@ img {
 }
 
 .project-title {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .tech {
-    color: var(--color-lightgray);
+  color: var(--color-lightgray);
 }
