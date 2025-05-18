@@ -91,14 +91,14 @@
 }
 
 /* 2 colonnes dès 600px */
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .inner-projects {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* 3 colonnes dès 900px */
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .inner-projects {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -124,6 +124,7 @@
   width: 100%;
   height: 230px;
   object-fit: cover;
+  object-position: center;
 }
 
 .image-shadow {
