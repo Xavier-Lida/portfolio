@@ -75,6 +75,7 @@
 }
 
 .title {
+  font-size: 35px;
   margin-bottom: 40px;
 }
 
@@ -108,9 +109,10 @@
   max-width: 300px;
 }
 
-img {
+.project img {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .project-title {
