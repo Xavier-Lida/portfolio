@@ -10,6 +10,9 @@
   margin: 0;
   border: none;
   font-family: Roboto, Arial;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -46,7 +49,6 @@
   text-align: center;
   width: 175px;
   transition: 0.2s;
-  cursor: pointer;
 }
 
 .name:hover {
@@ -58,15 +60,14 @@
   text-align: center;
   width: 100px;
   transition: 0.2s;
-  cursor: pointer;
 }
 
 .tags:hover {
   font-size: 3vh;
 }
 
-.projects,
-.passions {
+#projects,
+#passions {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,6 +77,7 @@
   background: var(--color-white);
   border-radius: 10px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+  scroll-margin-top: 150px;
 }
 
 .title {
